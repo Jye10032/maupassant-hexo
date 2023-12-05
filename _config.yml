@@ -102,17 +102,23 @@ post_content_length: 180 ## Set the length of the post summary displayed on home
 
 menu:
   - page: home
-    directory: .
+    directory: /
     icon: fa-home
   - page: archive
-    directory: archives/
+    directory: /archives
     icon: fa-archive
   - page: about
-    directory: about/
+    directory: /about
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  - page: tags
+    directory: /tags
+    icon: fa-tags
+  # - page: categories
+  #   directory: /categories
+  #   icon: fa-folder-open
+  # - page: guestbook
+  #   directory: /guestbook
+  #   icon: fa-book
 
 widgets: ## Seven widgets in sidebar provided: search, info, category, tag, recent_posts, recent_comments and links.
   - search
@@ -124,21 +130,15 @@ widgets: ## Seven widgets in sidebar provided: search, info, category, tag, rece
   - links
 
 info:
-  avatar: /img/avatar.png
-  discription: To be a better man.
+  avatar: /Myblog/img/avatar.png
+  discription: 此心不动，随机而动。
   outlinkitem:
-    - name: twitter
-      outlink: https://twitter.com/username
-      message: Twitter
     - name: envelope
-      outlink: mailto:admin@domain.com
+      outlink: 736891807@qq.com
       message: Email
     - name: github
-      outlink: https://github.com/username
+      outlink: https://github.com/Jye10032
       message: Github
-    - name: rss
-      outlink: /atom.xml
-      message: RSS
 
 links:
   - title: site-name1
