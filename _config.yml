@@ -130,7 +130,7 @@ widgets: ## Seven widgets in sidebar provided: search, info, category, tag, rece
   - links
 
 info:
-  avatar: /Myblog/img/avatar.png
+  avatar: /MyBlog/img/avatar.png
   discription: 此心不动，随机而动。
   outlinkitem:
     - name: envelope
