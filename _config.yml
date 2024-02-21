@@ -105,18 +105,23 @@ menu:
   - page: home
     directory: /
     icon: fa-home
+
   - page: archive
     directory: /archives
     icon: fa-archive
+
   - page: about
     directory: /about
     icon: fa-user
+
   - page: tags
     directory: /tags
     icon: fa-tags
+
   - page: history
     directory: /timeline
     icon: fa-book
+    
   - page: guestbook
     directory: /guestbook
     icon: fa-comments
